@@ -1,0 +1,114 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'Montserrat', sans-serif;
+    color: black;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 5rem;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.img img{
+    margin-top:0.5rem;
+    height: 4rem;
+    width: 4rem;
+}
+nav ul li{
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+.bottom{
+    position: sticky;
+    height: 6.1rem;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+}
+#duration1{
+    width: 60vw;
+    cursor: pointer;
+}
+.icons{
+    color: white;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+#mastersongname{
+    color: white;
+    margin-right: 0rem;
+    position:absolute;
+    margin-top: 1.2rem;
+    left: 29vw ;
+}
+.icons i{
+    cursor: pointer;
+}
+.mid{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    background-image: url("bg.jpg");
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+}
+h1{
+    font-family:cursive;
+    font-weight: lighter;
+}
+.list{
+    height: 3.5rem;
+    width: 30%;
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.list img{
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 0.3rem 0.5rem;
+}
+.list i{
+    cursor: pointer;
+}
+.temp{
+    margin-right: 1rem ;
+    margin-left: 0.5rem;
+}
+.t1 img{
+    width: 3rem;
+}
+
+.bottom img{
+    width: 8rem;
+    position: absolute;
+    left: 19.5vw;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-top: 1.7rem;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
